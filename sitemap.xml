@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/poem/farewelltoafriendatloutstower/</loc>
+    <lastmod>2018-07-10T09:29:22+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/linux/you-get/</loc>
     <lastmod>2018-07-09T20:22:30+08:00</lastmod>
   </url>
@@ -49,7 +54,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-07-09T20:22:30+08:00</lastmod>
+    <lastmod>2018-07-10T09:29:22+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -66,7 +71,7 @@
   
   <url>
     <loc>/poem/</loc>
-    <lastmod>2018-07-09T15:29:41+08:00</lastmod>
+    <lastmod>2018-07-10T09:29:22+08:00</lastmod>
     <priority>0</priority>
   </url>
   
