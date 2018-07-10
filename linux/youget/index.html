@@ -21,7 +21,7 @@
     <meta name="og:url" content="/">
     <meta name="og:image" itemprop="image primaryImageOfPage" content="/cover.jpg">
     
-    <title>Linuxes</title>
+    <title>you-get</title>
     <link rel="shortcut icon" href="/sam.ico" id="favicon">
     <link rel="stylesheet" href="/css/style.css">
     
@@ -35,9 +35,36 @@
 </head>
 
 </html>
-<body><div class="wrap"><div class="section" id="content"><h1>Linuxes</h1><p></p><ul><li>
-<a href="/linux/basicoperation/">Basic Operation</a></li><li>
-<a href="/linux/youget/">you-get</a></li></ul></div><div class="section bottom-menu"><hr/><p>
+<body><div class="wrap"><div class="section" id="title">you-get</div><div class="section" id="content"><p>在Linux下非常好用的视频下载工具you-get，其中github的地址：<a href="https://github.com/soimort/you-get">https://github.com/soimort/you-get</a></p>
+
+<hr />
+
+<ul>
+<li>安装:</li>
+<li>sudo apt-get update</li>
+<li>sudo apt-get install python3 python3-pip rtmpdump git vlc</li>
+<li>sudo apt-get install ffmpeg</li>
+<li>git clone git://github.com/soimort/you-get.git</li>
+<li>cd you-get</li>
+<li>sudo python3 setup.py install</li>
+</ul>
+
+<hr />
+
+<ul>
+<li>使用：</li>
+<li>1、在线播放：you-get -p vlc &ldquo;视频地址&rdquo;</li>
+<li>2、下载：</li>
+<li>视频详细信息：you-get -i &ldquo;视频地址&rdquo;</li>
+<li>查看视频的真实地址：you-get -u &ldquo;视频地址&rdquo;</li>
+<li>下载到一个指定的文件夹：you-get -o /home/lw/movice/ &ldquo;视频地址&rdquo;</li>
+<li>指定清晰度（从视频详细信息中获取）: you-get &ndash;format=hd3 &ldquo;视频地址&rdquo;</li>
+</ul>
+
+<hr />
+
+<p>-原文：<a href="https://www.qingsword.com/qing/1348.html">https://www.qingsword.com/qing/1348.html</a></p>
+</div><div class="section bottom-menu"><hr/><p>
 
 
 <a href="/poem">poem</a>
