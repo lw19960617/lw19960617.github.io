@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linuxes on Call me lw</title>
-    <link>/linux/</link>
+    <link>https://lw19960617.github.io/linux/</link>
     <description>Recent content in Linuxes on Call me lw</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 10 Jul 2018 10:15:20 +0800</lastBuildDate>
     
-	<atom:link href="/linux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lw19960617.github.io/linux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Basic Operation</title>
-      <link>/linux/basicoperation/</link>
+      <link>https://lw19960617.github.io/linux/basicoperation/</link>
       <pubDate>Tue, 10 Jul 2018 10:15:20 +0800</pubDate>
       
-      <guid>/linux/basicoperation/</guid>
+      <guid>https://lw19960617.github.io/linux/basicoperation/</guid>
       <description> 先对原来的sources list进行备份： 输入命令：sudo cp /etc/apt/sources.list /etc/apt/sources.list.bk
  把软件的更新源编辑进去，放在文末或者最前面都行： 输入命令：sudo gedit /etc/apt/sources.list
    部分国内开源镜像站点列表： 清华大学（http://mirrors.tuna.tsinghua.edu.cn/） 中国科学技术大学(debian.ustc.edu.cn) 上海交通大学(ftp.stju.edu.cn) 大连理工大学(mirror.dlut.edu.cn) 北京交通大学(mirror.bjtu.edu.cn) 北京理工大学(mirror.bit.edu.cn) 东北大学(mirror.neu.edu.cn) 厦门大学(mirrors.xmu.edu.cn) 兰州大学(mirror.lzu.edu.cn) 西安电子科技大学(linux.xidian.edu.cn) 哈尔滨工业大学(run.hit.edu.cn) 天津大学(mirror.tju.edu.cn) 东软信息学院(mirrors.neusoft.edu.cn) 电子科技大学(mirrors.stuhome.net) 华中科技大学(http://mirror.hust.edu.cn/) 网易开源镜像站(mirrors.163.com) 搜狐(mirrors.sohu.com)  找到Ubuntu，打开help即可   更新源信息： 输入命令：sudo apt-get update
@@ -26,10 +26,10 @@
     
     <item>
       <title>you-get</title>
-      <link>/linux/youget/</link>
+      <link>https://lw19960617.github.io/linux/youget/</link>
       <pubDate>Mon, 09 Jul 2018 20:22:30 +0800</pubDate>
       
-      <guid>/linux/youget/</guid>
+      <guid>https://lw19960617.github.io/linux/youget/</guid>
       <description>在Linux下非常好用的视频下载工具you-get，其中github的地址：https://github.com/soimort/you-get
  安装: sudo apt-get update sudo apt-get install python3 python3-pip rtmpdump git vlc sudo apt-get install ffmpeg git clone git://github.com/soimort/you-get.git cd you-get sudo python3 setup.py install   使用： 1、在线播放：you-get -p vlc &amp;ldquo;视频地址&amp;rdquo; 2、下载： 视频详细信息：you-get -i &amp;ldquo;视频地址&amp;rdquo; 查看视频的真实地址：you-get -u &amp;ldquo;视频地址&amp;rdquo; 下载到一个指定的文件夹：you-get -o /home/lw/movice/ &amp;ldquo;视频地址&amp;rdquo; 指定清晰度（从视频详细信息中获取）: you-get &amp;ndash;format=hd3 &amp;ldquo;视频地址&amp;rdquo;  -原文：https://www.qingsword.com/qing/1348.html</description>
     </item>
