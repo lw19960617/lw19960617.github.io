@@ -21,7 +21,7 @@
     <meta name="og:url" content="https://lw19960617.github.io/">
     <meta name="og:image" itemprop="image primaryImageOfPage" content="https://lw19960617.github.io/cover.jpg">
     
-    <title>Farewell to a Friend at Louts Tower</title>
+    <title>yield</title>
     <link rel="shortcut icon" href="https://lw19960617.github.io/sam.ico" id="favicon">
     <link rel="stylesheet" href="https://lw19960617.github.io/css/style.css">
     
@@ -35,26 +35,22 @@
 </head>
 
 </html>
-<body><div class="wrap"><div class="section" id="title">Farewell to a Friend at Louts Tower</div><div class="section" id="content"><ul>
-<li>王昌龄</li>
+<body><div class="wrap"><div class="section" id="title">yield</div><div class="section" id="content"><ul>
+<li>带有yield 的函数是一个生成器generator，用于迭代</li>
+<li>yield 类似于return 的关键字，迭代一次就返回yield 后面的值，下一次迭代就从上一
+次迭代遇到的yield 后面的代码开始执行</li>
+<li>yield 就是return 返回一个值并记住该值的位置，下次迭代就从这个位置后开始</li>
+<li>调用yield 函数，内部代码不马上执行，只是返回一个生成器对象，使用for进行迭代时
+，函数中的代码才会执行</li>
+</ul>
 
-<li><p>寒雨连江夜入吴，</p></li>
+<hr />
 
-<li><p>平明送客楚山孤。</p></li>
-
-<li><p>洛阳亲友如相问，</p></li>
-
-<li><p>一片冰心在玉壶。</p></li>
-
-<li><p>A cold rain mingled with East Stream invades the night;</p></li>
-
-<li><p>At dawn you leave the lonely Southern Hill in haze.</p></li>
-
-<li><p>If my friends in the North should ask if I&rsquo;m all right,</p></li>
-
-<li><p>My heart is free of stain as ice in crystal vase.</p></li>
-
-<li><p>translated by Xu Yuanchong</p></li>
+<ul>
+<li>判断一个函数是否为generator函数：</li>
+<li>from inspect import isgeneratorfunction</li>
+<li>isgeneratorfunction(function_name)
+&mdash;</li>
 </ul>
 </div><div class="section bottom-menu"><hr/><p>
 
