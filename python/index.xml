@@ -6,10 +6,19 @@
     <description>Recent content in Pythons on Call me lw</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Jul 2018 16:26:03 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 25 Jul 2018 15:39:54 +0800</lastBuildDate>
     
 	<atom:link href="https://lw19960617.github.io/python/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>pyecharts</title>
+      <link>https://lw19960617.github.io/python/pyecharts/</link>
+      <pubDate>Wed, 25 Jul 2018 15:39:54 +0800</pubDate>
+      
+      <guid>https://lw19960617.github.io/python/pyecharts/</guid>
+      <description> 主页：pyecharts.org/#/ Geo：数据样例 data=[(&amp;lsquo;深圳&amp;rsquo;，26),(&amp;lsquo;韶关&amp;rsquo;,30)] 数据里面的城市信息不能出现&amp;rdquo;，否则会报错：No coordinate is specified for 解决方法：删除该项 坐标中没有这个城市： No coordinate is specified for 涟水 解决方法：删除这个 项即可  </description>
+    </item>
     
     <item>
       <title>yield</title>
